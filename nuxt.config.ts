@@ -4,7 +4,7 @@ export default defineNuxtConfig({
     test: process.env.test
   },
   routeRules: {
-    '/index': {static:true},
+    '/': {static:true},
     '/test/**': {static:true}
   }
 })
