@@ -3,6 +3,6 @@ export default {
     preset: 'vercel-edge',
   },
   routeRules:{
-    '/': { static: true },
+    '/index': { static: true },
   }
 };
