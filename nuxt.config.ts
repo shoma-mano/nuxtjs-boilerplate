@@ -1,10 +1,7 @@
-export default defineNuxtConfig({
+export default {
   pages: true,
-  runtimeConfig: {
-    test: process.env.test
-  },
   routeRules: {
     '/': {static:true},
-    '/test/**': {static:true}
+    '/test/3': {static:true}
   }
-})
+}
