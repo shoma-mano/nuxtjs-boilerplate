@@ -5,6 +5,6 @@ export default defineNuxtConfig({
   },
   routeRules: {
     '/': {static:true},
-    '/test/3': {static:true}
+    '/test/**': {static:true}
   }
 })
