@@ -5,6 +5,6 @@ export default defineNuxtConfig({
   },
   routeRules: {
     '/index': {static:true},
-    '/test/index': {static:true}
+    '/test/**': {static:true}
   }
 })
