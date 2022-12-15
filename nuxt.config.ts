@@ -4,6 +4,6 @@ export default {
   },
   pages: true,
   routeRules:{
-    '/**': { static: true },
+    '/test/**': { static: true },
   }
 };
