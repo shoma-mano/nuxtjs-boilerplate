@@ -1,9 +1,10 @@
-export default {
-  nitro: {
-    preset: 'vercel-edge',
-  },
+export default defineNuxtConfig({
   pages: true,
-  routeRules:{
-    '/test/**': { static: true },
+  runtimeConfig: {
+    test: process.env.test
+  },
+  routeRules: {
+    '/index': {static:true},
+    '/test/index': {static:true}
   }
-};
+})
