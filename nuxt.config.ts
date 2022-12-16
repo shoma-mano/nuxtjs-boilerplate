@@ -1,7 +1,7 @@
 export default defineNuxtConfig( {
   pages: true,
   routeRules: {
-    '/**':{static:true},
+    '/index':{static:true},
     '/posts/1':{static:true},
     '/posts/2':{static:true},
     '/posts/**': {static:true},
